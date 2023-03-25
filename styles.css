@@ -142,6 +142,9 @@ li{
   h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
+  h3 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
   img:not(.no-shadow) {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     border-radius: 10%;
@@ -166,7 +169,17 @@ li{
 .custom-shape-divider-top-1679711728 .shape-fill {
     fill: #F86624;
 }
-
+.download img{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    width:80px;
+    border:5px;
+}
+.social img{
+    width:30px;
+}
+.coffee img{
+    width:15px;
+}
 @media only screen and (max-width: 768px) {
     .card {
         margin-top:0;
@@ -273,6 +286,16 @@ li{
     /* Table for screens smaller than 480px */
     table {
         margin: 0 auto;
+    }
+    .download img{
+        justify-content: flex-end;
+    }
+    h3{
+        padding-top:5px;
+        margin-top: 5px;
+    }
+    .social img{
+        width:30px;
     }
 }
 
