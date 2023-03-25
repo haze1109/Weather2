@@ -16,7 +16,7 @@ body {
     border-radius: 30px;
     padding: 10px;
     text-align: center;
-    box-shadow:0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow:0 2px 4px rgba(0, 0, 0, 0.9);
 }
 .search{
     width: 100%;
@@ -107,6 +107,40 @@ body {
 .hero img{
     width:50px;
 }
+.footer img{
+    width:30px;
+    background-color:#FFF;
+    margin-top: 2px;
+    margin-left:2px;
+}
+.footer{
+    margin-bottom:0;
+    padding-bottom:0px;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type:none;
+}
+th {
+    font-weight: bold;
+}
+
+li{
+    font-size: smaller;
+}
+.my-class a {
+    text-decoration: none;
+  }
+  h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  img:not(.no-shadow) {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    border-radius: 10%;
+  }
+  
+  
 @media only screen and (max-width: 768px) {
     .card {
         margin-top:0;
@@ -189,3 +223,9 @@ body {
 .custom-shape-divider-top-1679711728 .shape-fill {
     fill: #F86624;
 }
+
+@media only screen and (max-width: 480px) {
+    table {
+      margin: 0 auto;
+    }
+  }
