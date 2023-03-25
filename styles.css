@@ -6,6 +6,18 @@
 }
 
 
+.custom-shape-divider-bottom-1679746638 svg {
+    position: relative;
+    display: block;
+    width: calc(151% + 1.3px);
+    height: 138px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1679746638 .shape-fill {
+    fill: #F86624;
+}
+
 body {
     background-color: #fff;
     margin-bottom: 100px;
@@ -53,6 +65,7 @@ body {
     margin-right: 16px;
     font-size: 18px;
     text-align: center;
+    box-shadow:0 2px 4px rgba(0, 0, 0, 0.9);
 }
 .search button{
     border: 0;
@@ -64,14 +77,12 @@ body {
     cursor: pointer;
     position:absolute;
     right:60px;
+   
 }
 
 .search button img{
     width: 16px;
 }
-
-
-
 .weather-icon{
     width: 170px;
     margin-top: 30px;
@@ -139,12 +150,10 @@ li{
 .my-class a {
     text-decoration: none;
   }
-  h1 {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  h1, h2, h3, p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   }
-  h3 {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
+  
   img:not(.no-shadow) {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     border-radius: 10%;
