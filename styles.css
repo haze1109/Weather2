@@ -5,7 +5,7 @@
     border-style: border-box;
 }
 
-
+/* 
 .custom-shape-divider-bottom-1679746638 svg {
     position: relative;
     display: block;
@@ -16,7 +16,7 @@
 
 .custom-shape-divider-bottom-1679746638 .shape-fill {
     fill: #F86624;
-}
+} */
 
 body {
     background-color: #fff;
@@ -39,7 +39,7 @@ body {
 .card{
     width: 70%;
     max-width: 470px;
-    background: linear-gradient(135deg,#e3b505, #f86624);
+    /* background: linear-gradient(135deg,#e3b505, #f86624); */
     color: #fff;
     margin: 100px auto;
     border-radius: 30px;
@@ -56,7 +56,7 @@ body {
 .search input{
     border: 0;
     outline: 0;
-    background: #ebfffc;
+    background: #fff;
     color: #555;
     padding: 5px;
     height: 30px;
@@ -77,7 +77,7 @@ body {
     cursor: pointer;
     position:absolute;
     right:60px;
-   
+    box-shadow:0 2px 4px rgba(0, 0, 0, 0.9);
 }
 
 .search button img{
@@ -86,6 +86,7 @@ body {
 .weather-icon{
     width: 170px;
     margin-top: 30px;
+    background-color: blueviolet;
 }
 
 .weather h1{
@@ -103,10 +104,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 10px 10px;
     margin-top: 50px;
+    box-shadow:0 2px 4px rgba(0, 0, 0, 0.9);
 }
 
+.details img{
+    background-color: blueviolet;
+}
 .col{
     display: flex;
     align-items: center;
@@ -135,7 +140,13 @@ body {
 .hero img{
     width:50px;
 }
-
+.peepz img{
+    width:100px;
+    display: inline-block;
+    vertical-align: middle;
+    /* You can also adjust the margin or padding as per your requirement */
+    margin-right: 10px;
+}
 
 ul {
     list-style-type:none;
@@ -176,7 +187,7 @@ li{
 }
 
 .custom-shape-divider-top-1679711728 .shape-fill {
-    fill: #F86624;
+    fill: blueviolet;
 }
 .download img{
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
