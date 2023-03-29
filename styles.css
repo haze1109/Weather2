@@ -16,7 +16,7 @@ body {
     margin-left:2px;
 }
 .footer{
-    height: 200px;
+    height: 50px;
     margin-bottom:0;
     padding-bottom:0px;
     padding-top: 50px;
@@ -125,13 +125,6 @@ body {
 }
 .hero img{
     width:50px;
-}
-.peepz img{
-    width:100px;
-    display: inline-block;
-    vertical-align: middle;
-    /* You can also adjust the margin or padding as per your requirement */
-    margin-right: 10px;
 }
 
 ul {
