@@ -5,19 +5,6 @@
     border-style: border-box;
 }
 
-/* 
-.custom-shape-divider-bottom-1679746638 svg {
-    position: relative;
-    display: block;
-    width: calc(151% + 1.3px);
-    height: 138px;
-    transform: rotateY(180deg);
-}
-
-.custom-shape-divider-bottom-1679746638 .shape-fill {
-    fill: #F86624;
-} */
-
 body {
     background-color: #fff;
     margin-bottom: 100px;
@@ -39,7 +26,6 @@ body {
 .card{
     width: 70%;
     max-width: 470px;
-    /* background: linear-gradient(135deg,#e3b505, #f86624); */
     color: #fff;
     margin: 100px auto;
     border-radius: 30px;
